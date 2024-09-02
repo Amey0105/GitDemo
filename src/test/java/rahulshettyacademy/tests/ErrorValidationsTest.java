@@ -39,6 +39,8 @@ public class ErrorValidationsTest extends BaseTest {
 		CartPage cartPage = productCatalogue.goToCartPage();
 		Boolean match = cartPage.VerifyProductDisplay("ZARA COAT 33");
 		Assert.assertFalse(match);
+		Assert.assertFalse(match1);
+		Assert.assertFalse(match2);
 		
 	
 
